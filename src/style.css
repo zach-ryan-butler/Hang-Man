@@ -1,0 +1,68 @@
+h1 {
+    text-align: center;
+}
+
+.pic-container {
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    right: 200px;
+}
+
+.gallows {
+    position: absolute;
+    z-index: -1;
+    left: 200px;
+}
+
+.head {
+    position: absolute;
+    width: 200px;
+    left: 432px;
+    top: 90px;
+}
+
+.body {
+    position: absolute;
+    top: 280px;
+    left: 332px;
+    width: 400px;
+    height: 220px;
+}
+
+.limbs {
+    width: 400px;
+    height: 200px;
+}
+
+#left-leg {
+    position: absolute;
+    top: 468px;
+    left: 286px;
+    transform: rotate(30deg);
+}
+
+#right-leg {
+    position: absolute;
+    transform: rotate(-30deg);
+    top: 468px;
+    right: 222px;
+}
+
+#right-arm {
+    position: absolute;
+    transform: rotate(50deg);
+    top: 200px;
+    right: 199px
+}
+
+#left-arm {
+    position: absolute;
+    transform: rotate(-50deg);
+    top: 200px;
+    right: 337px;
+}
+
+
+
+

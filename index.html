@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hang-Man</title>
+    <link rel="stylesheet" href="./src/style.css">
 </head>
 <body>
     <header>
@@ -12,10 +13,17 @@
     </header>
 
     <main>
-        <section>
-            
+        <section class="pic-container">
+            <img class="gallows" src="./assets/gallows.png" alt="gallows picture">
+            <img class="head" src="./assets/head.png" alt="head">
+            <img class="body" src="./assets/body.png" alt="torso">
+            <img id="right-arm" class="limbs" src="./assets/body.png" alt="arm">
+            <img id="left-arm" class="limbs" src="./assets/body.png" alt="arm">
+            <img id="left-leg" class="limbs" src="./assets/body.png" alt="leg">
+            <img id="right-leg" class="limbs" src="./assets/body.png" alt="leg">
         </section>
     </main>
-    
+    <script type="module" src="./src/index.js"></script>
 </body>
 </html>
+            
